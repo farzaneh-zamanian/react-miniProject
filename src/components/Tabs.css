@@ -1,0 +1,39 @@
+.tabContainer {
+  width: 80%;
+}
+
+.tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #66c9ea;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tabs li {
+  margin-right: 20px;
+}
+
+.tabs li.active {
+  border-bottom: 2px solid #ddd;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #333;
+}
+
+.tabs a:hover {
+  color: #666;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #ddd;
+}
